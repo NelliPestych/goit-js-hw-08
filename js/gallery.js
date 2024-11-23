@@ -68,7 +68,7 @@ const images = [
 const galleryContainer = document.querySelector('.gallery');
 
 function createGalleryItemsMarkup(images) {
-    return images.map(({ preview, original, description }) => {
+    return images.map(({preview, original, description}) => {
         return `
       <li class="gallery-item">
         <a class="gallery-link" href="${original}">
